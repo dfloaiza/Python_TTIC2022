@@ -1,4 +1,4 @@
-Fecha,Temp (C),Temp (C) Punto de Rocío,Hum Rel (%),Vel. Viento (km/h),Visbilidad(km), Presión (kPa),Clima
+Fecha,Temp (C),Temp (C) Punto de Rocío,Hum Rel (%),Vel. Viento (km/h),Visibilidad(km), Presión (kPa),Pronóstico
 2012-01-01 00:00:00,-1.8,-3.9,86,4,8.0,101.24,Niebla
 2012-01-01 01:00:00,-1.8,-3.7,87,4,8.0,101.24,Niebla
 "2012-01-01 02:00:00,-1.8,-3.4,89,7,4.0,101.26,""Llovizna helada,Niebla"""
