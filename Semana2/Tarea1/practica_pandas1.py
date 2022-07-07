@@ -54,6 +54,24 @@ print(df_v1_9a_cnt)
  
 print(df_v1.info())
 
+#contar celdas no nulas por columna
+print(df_v1.count())
+
+df_v1_9a['categorias flujo'] = pd.cut(df_v1_9a['Calle 9a (66-39)'],  
+                                    bins=[0,200, 400],
+                                    labels=['Bajo', 'Alto'])
+
+#convertir columna a enteros
+df_v1_1a['Cra. 1'] = df_v1_1a['Cra. 1'].astype('int32')
+
+#Crear categorías de datos numéricos en la columna nueva 'Rango flujo':
+df_v1_1a['Rango flujo'] = pd.cut(df_v1_1a['Cra. 1'],          #Columna con los valores numéricos a categorizar
+                                 bins=[0,100,200,300,500],    #Intervalos de valores
+                                 labels=['Bajo','Medio','Alto','Muy Alto'] #ETiquetas de los valores
+                                )                           
+#print(df_v1_9a.to_string())
+print(df_v1_1a.to_string()) #Imprimir dataframe COMPLETO
+
 
 
 
