@@ -25,10 +25,7 @@ def select_file():
     
 #Por definir: 
 def plot_dataframe():
-    #new_df.plot()
-    plot_df = new_df.groupby(["Crimen","Vecindad"])['Crimen','Vecindad'].agg("sum")
-    print(plot_df)
-    #plot_df(p
+   
     print(new_df)
 
 #mostrar la ventana:
